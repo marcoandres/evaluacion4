@@ -3,8 +3,8 @@ import threading
 
 username = input("Enter your Nombre Jugador: ")
 
-host = '129.151.108.68'
-port = 4444
+host = '0.0.0.0'
+port = 0000
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((host, port))
