@@ -3,7 +3,7 @@ import threading
 
 
 host = '0.0.0.0'
-port = 4444
+port = 00000
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
